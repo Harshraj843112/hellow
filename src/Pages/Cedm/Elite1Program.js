@@ -15,7 +15,7 @@ const Elite1Program = () => {
           Welcome to the Elite1 Program Page
         </h1>
         <p className="text-lg md:text-xl mb-8">
-          How can we assist you with our Elite1 Program?
+          How can we assist you with our Elite 1 Program?
         </p>
         <NavLink to="/">
           <motion.button
