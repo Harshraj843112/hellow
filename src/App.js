@@ -17,6 +17,7 @@ import Elite3Program from "./Pages/Cedm/Elite3Program";
 import CorporateWorkshop from "./Pages/Cedm/CorporateWorkshop";
 import Footer from "./Pages/Footer";
 import Layout from "./Components/Layout";
+import Home from "./Pages/Home";
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
       <BrowserRouter>
         <div style={{ flex: "1" }}>
           <Routes>
-            <Route path="/" element={<Navbar />} />
+            <Route path="/" element={<Home></Home>} />
+
             <Route path="/website-service-solution" element={<WebHome />} />
             <Route
               path="/digital-marketing"
@@ -73,8 +75,6 @@ const App = () => {
             ></Route>
           </Routes>
         </div>
-        <Layout></Layout>
-        <Footer></Footer>
       </BrowserRouter>
     </div>
   );

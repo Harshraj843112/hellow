@@ -14,7 +14,7 @@ const Layout = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="featured bg-gray-900 text-white py-16"
+      className="featured bg-gray-800 text-white py-16"
     >
       <div className="container mx-auto px-4 md:px-0 flex flex-col md:flex-row items-center justify-between py-14">
         <div className="left max-w-lg mb-8 md:mb-0 w-full md:w-auto">

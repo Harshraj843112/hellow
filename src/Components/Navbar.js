@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { Button } from "@material-tailwind/react";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
+import Layout from "./Layout";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ const Nav = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="shadow-md w-full fixed top-0 left-0 bg-gray-900 z-50"
+      className="shadow-md w-full fixed top-0 left-0 bg-gray-1100 z-50"
     >
       <div className="md:flex items-center justify-between bg-gray-900 py-2 md:px-10 px-7 ">
         <div className="font-bold text-2xl cursor-pointer flex items-center justify-between md:justify-start gap-1 ">
